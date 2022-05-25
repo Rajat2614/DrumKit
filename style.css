@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(149, 146, 152);
+}
+
+#title {
+    color: aliceblue;
+    font-size: 5rem;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 10px;
+}
+
+.set {
+    margin-left: 150px;
+    margin-bottom: 200px;
+}
+
+
+.set button {
+    position: relative;
+    font-size: 3rem;
+    font-family: cursive;
+    font-weight: bolder;
+    color: rgb(134, 221, 34);
+    padding: 2.25rem;
+    margin: 1.25rem;
+    border: 20px;
+    border-radius: 10px;
+    background-color: rgb(236, 230, 237);
+    text-shadow: 3px 3px rgb(31, 109, 226);
+    transition: all 0.3s ease 0s;
+}
+
+.set button:hover {
+    background-color: #ebefee;
+    box-shadow: 5px 15px 20px rgba(46, 229, 157, 0.8);
+    transform: translateY(-7px);
+}
+
+.w {
+    background-image: url("./images/tom1.png");
+}
+
+.a {
+    background-image: url("./images/tom2.png");
+}
+
+.s {
+    background-image: url("./images/tom3.png");
+}
+
+.d {
+    background-image: url("./images/tom4.png");
+}
+
+.j {
+    background-image: url("./images/snare.png");
+}
+
+.k {
+    background-image: url("./images/crash.png");
+}
+
+.l {
+    background-image: url("./images/kick.png");
+}
+
+body .footer{
+    text-align: center;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.pressed{
+    background-color: #ebefee;
+    box-shadow: 5px 15px 20px rgba(46, 229, 157, 0.8);
+    transform: translateY(-7px);
+    opacity: 0.5;
+}
